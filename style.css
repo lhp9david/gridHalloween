@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 body {
-    background-color: black;
+    background-image: url(img/filip-zrnzevic-PSFfI7vbS3c-unsplash.jpg);
+    background-size: contain;
     font-family: 'Permanent Marker', cursive;
 }
 
@@ -23,7 +24,7 @@ h1 {
 }
 
 h1 img {
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .container div {
