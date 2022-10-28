@@ -113,14 +113,20 @@ div.name:hover {
     transition: 0.5s;
 }
 
+
+element.style {
+}
 p {
+    display: flex;
     position: absolute;
+    justify-content: center;
+    align-items: center;
     bottom: 0;
     left: 0;
     text-align: center;
     width: 100%;
     background-color: rgb(251,102,18, 0.5);
     margin: 0;
-    height: 10%;
+    height: 3em;
 }
 
